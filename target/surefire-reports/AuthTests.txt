@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: UserTests
+Test set: AuthTests
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.459 s - in UserTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.663 s - in AuthTests
