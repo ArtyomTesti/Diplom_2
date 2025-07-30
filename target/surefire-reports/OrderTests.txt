@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: OrderTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.407 s <<< FAILURE! - in OrderTests
+createOrderWithInvalidIngredientHashTest(OrderTests)  Time elapsed: 0.887 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <500> but was <400>.
+
+	at OrderTests.createOrderWithInvalidIngredientHashTest(OrderTests.java:109)
+
+createOrderWithoutAuthTest(OrderTests)  Time elapsed: 0.186 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <401> but was <200>.
+
+	at OrderTests.createOrderWithoutAuthTest(OrderTests.java:61)
+
